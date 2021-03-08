@@ -43,16 +43,13 @@ enum StagingEnvironment: Int, Codable {
 extension EIAMConfiguration {
     static let ref = EIAMConfiguration(discovery: URL(string: "https://identity-eiam-r.eiam.admin.ch/realms/bund_bk-picardapp/")!,
                                        clientID: "BK-picardapp",
-                                       clientSecret: "0c65369b-1f2e-410d-b9b5-1cd72a5e0da9",
                                        redirectURI: URL(string: "eiam://redirect/")!)
 
     static let abn = EIAMConfiguration(discovery: URL(string: "https://identity-eiam-a.eiam.admin.ch/realms/bund_bk-picardapp/")!,
                                        clientID: "BK-picardapp",
-                                       clientSecret: "46a2c46a-8592-4f77-ab48-06fd9963ce8f",
                                        redirectURI: URL(string: "eiam://redirect/")!)
 
     static let prod = EIAMConfiguration(discovery: URL(string: "https://identity-eiam.eiam.admin.ch/realms/bund_bk-picardapp/")!,
                                         clientID: "BK-picardapp",
-                                        clientSecret: "c43b8664-8b53-4165-8d0e-aee719b40bd7",
                                         redirectURI: URL(string: "eiam://redirect/")!)
 }

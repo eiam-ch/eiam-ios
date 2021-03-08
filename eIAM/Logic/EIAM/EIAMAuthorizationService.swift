@@ -77,13 +77,12 @@ class EIAMAuthorizationService: NSObject {
         // We're using prompt=select_account (or alternatively prompt=login) to trigger
         // user-interaction when logging in. This avoids non-interactive SSO (opening and
         // closing browser directly if user is already logged in on this device/browser).
-        let request = OIDAuthorizationRequest(configuration: appAuthConfiguration,
-                                              clientId: configuration.clientID,
-                                              clientSecret: configuration.clientSecret,
+        let request = OIDAuthorizationRequest(configuration: appAuthConfiguration, 
+                                              clientId: configuration.clientID, 
                                               // offline_access required for obtaining a refresh token
-                                              scopes: [OIDScopeOpenID, "offline_access"],
-                                              redirectURL: configuration.redirectURI,
-                                              responseType: OIDResponseTypeCode,
+                                              scopes: [OIDScopeOpenID, "offline_access"], 
+                                              redirectURL: configuration.redirectURI, 
+                                              responseType: OIDResponseTypeCode, 
                                               additionalParameters: ["prompt": "select_account"])
 
         currentAuthorizationFlow = OIDAuthState.authState(byPresenting: request, presenting: viewController) { [weak self] authState, error in

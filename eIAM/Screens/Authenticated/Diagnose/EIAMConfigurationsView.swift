@@ -22,8 +22,6 @@ struct EIAMConfigurationsView: View {
                     VSpacer(8)
                     TitleSubtitleView(title: "Client ID", subtitle: authenticationModel.authorizationService.configuration.clientID)
                     Divider()
-                    TitleSubtitleView(title: "Client Secret", subtitle: authenticationModel.authorizationService.configuration.clientSecret)
-                    Divider()
                     TitleSubtitleView(title: "Discovery", subtitle: authenticationModel.authorizationService.configuration.discovery.absoluteString)
                     Divider()
                     TitleSubtitleView(title: "Redirect URI", subtitle: authenticationModel.authorizationService.configuration.redirectURI.absoluteString)
