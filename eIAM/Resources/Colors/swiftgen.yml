@@ -1,0 +1,8 @@
+xcassets:
+  inputs:
+    - Colors.xcassets
+  outputs:
+    - templatePath: xcassets.stencil
+      params:
+        prefix: eiam
+      output: Colors+Generated.swift

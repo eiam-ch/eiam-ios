@@ -1,0 +1,52 @@
+
+/*App Name: Name der App*/
+"app_name" = "app name";
+
+/*Technischer Key der Sprache (wird von Ubique in allen Übersetzungen hinzugefügt, bitte nicht anpassen)*/
+"language_key" = "en";
+
+/*Button: Abbrechen*/
+"cancel_button" = "Cancel";
+
+/*Button: OK*/
+"ok_button" = "OK";
+
+/*Button: Löschen*/
+"delete_button" = "Delete";
+
+/*Button: Fertig*/
+"done_button" = "Done";
+
+/*Button: Weiter*/
+"continue_button" = "Continue";
+
+/*Button: Schliessen*/
+"close_button" = "Close";
+
+/*Button: Erneut versuchen*/
+"retry_button" = "Retry";
+
+/*Button: Sichern*/
+"save_button" = "Save";
+
+/*Button: Zurück*/
+"back_button" = "Back";
+
+/*Titel: Fehler*/
+"error_title" = "Error";
+"home_title" = "eIAM";
+"home_subtitle" = "eGovernment Identity & \nAccess Management";
+"home_description" = "eIAM is the Federal Administration's central access and permissions system for web applications and native mobile apps.";
+"home_login_button_title" = "Start login";
+"authenticated_title" = "Authenticated sucessfully!";
+"authenticated_logout_button_title" = "Logout";
+"authenticated_diagnose_text" = "Here you receive detailed technical information";
+"authenticated_diagnose_button_title" = "Diagnosis";
+"information_title" = "Information";
+"Information_url_title" = "eIAM";
+"Information_url_link" = "https://www.eiam.admin.ch/";
+"Information_youtubevideo_url" = "https://youtu.be/6rWNYl6cgA8";
+"information_text_top" = "eIAM is the Federal Administration's central access and permissions system for web applications and native mobile apps.";
+"information_text_bottom" = "Put simply, eIAM is the Confederation's central login infrastructure; the aim is to avoid having to create a separate login procedure for each application.\n\nThis centralisation saves money and allows all applications to be used with the same login data.\n\nIt doesn't matter how the target application is used, or where; eIAM can run applications all over the world.";
+"diagnose_title" = "Diagnosis";
+"home_choose_environment" = "Choose a staging environment:";

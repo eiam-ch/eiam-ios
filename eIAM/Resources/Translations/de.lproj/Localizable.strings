@@ -1,0 +1,52 @@
+
+/*App Name: Name der App*/
+"app_name" = "App Name";
+
+/*Technischer Key der Sprache (wird von Ubique in allen Übersetzungen hinzugefügt, bitte nicht anpassen)*/
+"language_key" = "de";
+
+/*Button: Abbrechen*/
+"cancel_button" = "Abbrechen";
+
+/*Button: OK*/
+"ok_button" = "OK";
+
+/*Button: Löschen*/
+"delete_button" = "Löschen";
+
+/*Button: Fertig*/
+"done_button" = "Fertig";
+
+/*Button: Weiter*/
+"continue_button" = "Weiter";
+
+/*Button: Schliessen*/
+"close_button" = "Schliessen";
+
+/*Button: Erneut versuchen*/
+"retry_button" = "Erneut versuchen";
+
+/*Button: Sichern*/
+"save_button" = "Sichern";
+
+/*Button: Zurück*/
+"back_button" = "Zurück";
+
+/*Titel: Fehler*/
+"error_title" = "Fehler";
+"home_title" = "eIAM";
+"home_subtitle" = "eGovernment Identity & \nAccess Management";
+"home_description" = "eIAM ist das zentrale Zugriffs- und Berechtigungssystem der Bundesverwaltung für Webapplikationen, und native Mobile Apps.";
+"home_login_button_title" = "Login Starten";
+"authenticated_title" = "Ergfolgreich angemeldet!";
+"authenticated_logout_button_title" = "Abmelden";
+"authenticated_diagnose_text" = "Hier bekommen sie detaillierte technische Informationen";
+"authenticated_diagnose_button_title" = "Diagnose";
+"information_title" = "Information";
+"Information_url_title" = "eIAM";
+"Information_url_link" = "https://www.eiam.admin.ch/";
+"Information_youtubevideo_url" = "https://youtu.be/6rWNYl6cgA8";
+"information_text_top" = "eIAM ist das zentrale Zugriffs- und Berechtigungssystem der Bundesverwaltung für Webapplikationen, und native Mobile Apps.";
+"information_text_bottom" = "Vereinfacht erklärt, ist eIAM die zentrale Login-Infrastruktur des Bundes mit dem Ziel, dass nicht für jede Applikation ein eigenes Loginverfahren entwickelt werden muss.\n\nDank dieser Zentralisierung werden Kosten gespart und alle Applikationen können mit denselben Zugangsdaten verwendet werden.\n\nEs spielt dabei keine Rolle, wie und wo die Zielapplikation betrieben wird, eIAM kann Applikationen auf der ganzen Welt bedienen.";
+"diagnose_title" = "Diagnose";
+"home_choose_environment" = "Wählen Sie einen Staging environment:";

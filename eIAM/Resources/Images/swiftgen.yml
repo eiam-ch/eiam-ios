@@ -1,0 +1,10 @@
+xcassets:
+  inputs:
+    - Images.xcassets
+  outputs:
+    - templatePath: images.stencil
+      params:
+        forceProvidesNamespaces: false
+        publicAccess: false
+        enableSwiftUI: true
+      output: Images+Generated.swift

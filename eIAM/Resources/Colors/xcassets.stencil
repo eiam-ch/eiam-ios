@@ -1,0 +1,34 @@
+// swiftlint:disable all
+// Generated using SwiftGen — https://github.com/SwiftGen/SwiftGen
+
+{% if catalogs %}
+{% set enumName %}{{param.enumName|default:"Asset"}}{% endset %}
+{% set colorType %}{{param.colorTypeName|default:"ColorAsset"}}{% endset %}
+{% set forceNamespaces %}{{param.forceProvidesNamespaces|default:"false"}}{% endset %}
+{% set accessModifier %}{% if param.publicAccess %}public{% endif %}{% endset %}
+{% set prefix %}{% if param.prefix %}{{param.prefix}}_{% endif %}{% endset %}
+
+import UIKit
+import SwiftUI
+
+// swiftlint:disable superfluous_disable_command file_length implicit_return
+
+extension UIColor {
+{% for asset in catalogs.first.assets %}
+  {% if asset.type == "color" %}
+  static let {{prefix}}{{asset.name}} = UIColor(named: "{{asset.name}}", in: nil, compatibleWith: nil)!
+  {% endif %}
+{% endfor %}
+}
+
+extension Color {
+{% for asset in catalogs.first.assets %}
+  {% if asset.type == "color" %}
+  //{{asset.value}}
+  static let {{param.prefix}}_{{asset.name}} = Color("{{asset.name}}")
+  {% endif %}
+{% endfor %}
+}
+{% else %}
+// No assets found
+{% endif %}

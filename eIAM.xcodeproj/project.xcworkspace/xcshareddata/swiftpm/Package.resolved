@@ -1,0 +1,32 @@
+{
+  "pins" : [
+    {
+      "identity" : "appauth-ios",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/openid/AppAuth-iOS.git",
+      "state" : {
+        "revision" : "33660c271c961f8ce1084cc13f2ea8195e864f7d",
+        "version" : "1.5.0"
+      }
+    },
+    {
+      "identity" : "snapkit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/SnapKit/SnapKit.git",
+      "state" : {
+        "revision" : "f222cbdf325885926566172f6f5f06af95473158",
+        "version" : "5.6.0"
+      }
+    },
+    {
+      "identity" : "ubkit-ios",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/UbiqueInnovation/ubkit-ios",
+      "state" : {
+        "branch" : "main",
+        "revision" : "a7af7198be92f5208e79ed611fb378df39b71a11"
+      }
+    }
+  ],
+  "version" : 2
+}
